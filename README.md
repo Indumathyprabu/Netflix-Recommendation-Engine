@@ -3,7 +3,7 @@ Netflix Recommendation Engine
 Overview
 This project is a Netflix Recommendation Engine built using collaborative filtering techniques. The goal is to recommend movies to users based on their past ratings and preferences. The project uses the Singular Value Decomposition (SVD) algorithm from the Surprise library to predict user ratings and generate recommendations.
 
-Dataset
+<bold>**Dataset**</bold>
 The dataset used in this project consists of movie ratings provided by Netflix users. The dataset includes:
 
 Movie Titles: Contains movie IDs, titles, and release years.
