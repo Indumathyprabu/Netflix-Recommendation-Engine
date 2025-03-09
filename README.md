@@ -10,7 +10,7 @@ Movie Titles: Contains movie IDs, titles, and release years.
 
 Ratings: Contains user IDs, movie IDs, and ratings.
 
-Requirements
+# **Requirements**
 To run this project, you need the following Python libraries:
 
 pandas
@@ -24,21 +24,21 @@ scikit-learn
 surprise
 
 
-Project Structure
+# **Project Structure**
 Data Preprocessing: The dataset is cleaned and preprocessed to remove movies and users with fewer ratings.
 
 Model Training: The SVD algorithm is used to train the recommendation model.
 
 Recommendation Generation: The trained model predicts ratings for movies and generates recommendations for a specific user.
 
-Code Explanation
+# **Code Explanation**
 Data Loading and Preprocessing:
 
 The dataset is loaded and cleaned to remove movies and users with fewer ratings.
 
 The dataset is then split into training and testing sets.
 
-Model Training:
+# **Model Training:**
 
 The SVD algorithm is used to train the recommendation model.
 
@@ -50,5 +50,5 @@ The trained model predicts ratings for movies for a specific user.
 
 The top recommendations are displayed based on the predicted ratings.
 
-Results
+# **Results**
 The recommendation engine successfully predicts user ratings and generates personalized movie recommendations. The model achieves an RMSE of ~0.9967 and an MAE of ~0.8017, indicating good predictive accuracy.
